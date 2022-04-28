@@ -1,5 +1,4 @@
 def bubble_sort(array)
-  p array
   flag = 1 
   temp = 0 
   while flag != 0 do
@@ -14,9 +13,9 @@ def bubble_sort(array)
           flag = 1
         end 
       end
-       p array
     end    
   end
+  p array
 end
   bubble_sort([4,3,78,2,0,2])
 # => [0,2,2,3,4,78]
